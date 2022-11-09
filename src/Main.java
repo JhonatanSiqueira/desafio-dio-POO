@@ -46,7 +46,7 @@ public class Main {
         devJhon.progredir(); //PROGREDIU NA DISCIPLINA (+XP)
         System.out.println("Conteúdos Concluídos" + devJhon.getConteudosConcluidos());
         System.out.println("Conteúdos Inscritos" + devJhon.getConteudosInscritos());
-        System.out.println("XP:" + devJhon.calcularTotalXp()); //EXIBE O XP TOTAL DO ALUNO
+        System.out.println("XP total do aluno:" + devJhon.calcularTotalXp()); //EXIBE O XP TOTAL DO ALUNO
 
         System.out.println("-----------------------------------------------------------");
 
@@ -59,7 +59,7 @@ public class Main {
         devGabriela.progredir();
         System.out.println("Conteúdos Concluídos" + devGabriela.getConteudosConcluidos());
         System.out.println("Conteúdos Inscritos" + devGabriela.getConteudosInscritos());
-        System.out.println("XP:" + devGabriela.calcularTotalXp());
+        System.out.println("XP total do aluno:" + devGabriela.calcularTotalXp());
 
 
 }
